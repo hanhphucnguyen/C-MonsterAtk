@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="LoadTheModels.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="LightManager\cLightHelper.cpp">
+      <Filter>LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager\cLightMangager.cpp">
+      <Filter>LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshObject.cpp">
+      <Filter>cMeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlyCamera.cpp">
+      <Filter>CameraHelp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LightManager\cLightHelper.h">
+      <Filter>LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager\cLightMangager.h">
+      <Filter>LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshObject.h">
+      <Filter>cMeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="globalStuff.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpfulFunctions.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlyCamera.h">
+      <Filter>CameraHelp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.glsl" />
+    <None Include="vertexShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="LightManager">
+      <UniqueIdentifier>{d5079280-8a8d-46b7-8b35-81bb47e377b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{11630930-cb62-40c8-8d34-344412a6a6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VAOManager">
+      <UniqueIdentifier>{09408197-3bbd-4d34-b800-279645aa5eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cMeshObject">
+      <UniqueIdentifier>{33e60317-905a-4e41-89d3-8f6a2417f376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{982eb783-462b-4f61-aa74-edb0807fae5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraHelp">
+      <UniqueIdentifier>{a20359bd-0c81-46c1-b8b2-32b71b6a4219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
